@@ -1,0 +1,46 @@
+{
+"profile":{
+	"img":"profile-blank-female.png",
+	"name":"Santhi Segu",
+	"roll":"17a31a0588",
+	"place":"Kakinada",
+	"des":"Student"
+},
+"career":{
+	"info":"To work in an environment where i can utilize my skills and knowledge"
+},
+"education":[
+	{
+	"sno":"1",
+	"degree":"btech",
+	"institute":"Pragati engg college",
+	"per":"79",
+	"yop":"2021"
+},
+{
+	"sno":"2",
+	"degree":"inter",
+	"institute":"Srichaitanya",
+	"per":"88",
+	"yop":"2017"
+},
+{
+	"sno":"3",
+	"degree":"SSC",
+	"institute":"Sama School",
+	"per":"92",
+	"yop":"2015"
+}
+],
+"language":[
+{
+	"lang":"English"
+},
+{
+	"lang":"Telugu"
+},
+{
+	"lang":"hindi"
+}
+]
+}

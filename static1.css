@@ -1,0 +1,143 @@
+/*This is for desktop view*/
+body{
+	background: #A09DE2;
+}
+.maindiv{
+	background: #37F577;
+	margin:7%;
+	padding: 5%;
+	width:80%;
+	height: 90%;
+	display:flex;
+	justify-content: space-around;
+	border-radius: 7%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.subdiv1{
+	background:#37DFF5;
+	margin: 4%;
+	width: 30%;
+	height: 55%;
+	text-align: center;
+	border-radius: 4%;
+	font-size: 120%;
+	box-shadow: 3px 3px 3px 3px;
+}
+img{
+	height: 40%;
+	width: 45%;
+	margin-top:5%;
+	border-radius: 7%
+}
+.subdiv2{
+	background: #FADBD8;
+	margin: 2%;
+	width: 120%;
+	height: 120%;
+	font-size: 120%;
+	text-align: left;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/*This is for mobile view*/
+@media screen and (min-width: 320px) and (max-width: 500px) {
+body{
+	background: #A09DE2;
+}
+.maindiv{
+	background: #37F577;
+	margin:2%;
+	display:inline-block;
+	border-radius: 3%;
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.subdiv1{
+	background:#37DFF5;
+	padding: 2%;
+	margin:15%;
+	width: 65%;
+	height:30%;
+	text-align: center;
+	border-radius: 3%;
+	box-shadow: 3px 3px 3px 3px;
+}
+img{
+	height: 40%;
+	width: 45%;
+	margin-top:5%;
+	border-radius: 7%
+}
+.subdiv2{
+	background: #FADBD8;
+	margin: 3%;
+	width: 90%;
+	text-align: left;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	padding-left: 2%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+}
+/*This is for tablet view*/
+@media screen and (min-width: 501px) and (max-width: 800px) {
+body{
+	background: #A09DE2;
+}
+.maindiv{
+	background: #37F577;
+	margin:2%;
+	display:inline-block;
+	border-radius: 3%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.subdiv1{
+	background:bisque;
+	margin:4%;
+	width: 70%;
+	height:70%;
+	display: flex;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 3px 3px 3px 3px;
+}
+.subdiv11{
+	background:seagreen;
+	margin: 4%;
+	border-radius: 3%;
+}
+.subdiv12{
+background:seagreen;
+margin: 4%;
+border-radius: 3%;
+
+}
+img{
+	height: 40%;
+	width: 45%;
+	margin-top:5%;
+	border-radius: 7%
+}
+.subdiv2{
+	background: #FADBD8;
+	margin: 4%;
+	width: 80%;
+	text-align: left;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px;
+	padding-left: 10%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+}
